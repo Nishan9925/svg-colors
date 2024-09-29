@@ -1,0 +1,24 @@
+.process-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, var(--color1), var(--color2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+
+.svg-container {
+  margin-bottom: 10px; /* Space between SVG and text */
+}
+
+.add-button {
+  margin: 10px; /* Space for the add button */
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "label": "Step 1",
+    "color": "#ff0000",
+    "svgPath": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' /></svg>"
+  }  
+]

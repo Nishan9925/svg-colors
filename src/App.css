@@ -1,0 +1,79 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.process-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  position: relative;
+}
+
+.process-step button {
+  margin-top: 5px;
+}
+
+.process-step .svg-container img {
+  width: 40px;
+  height: 40px;
+}
+
+.add-step-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-button {
+  font-size: 24px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.add-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.add-step .input {
+  margin: 5px;
+  padding: 8px;
+  width: 200px;
+}
+
+.add-step button {
+  padding: 10px 20px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-step button:hover {
+  background-color: #1E88E5;
+}
+
+
